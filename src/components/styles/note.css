@@ -1,0 +1,29 @@
+.note_form_wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 30px 50px;
+    border-radius: 10px;
+}
+
+.note_form_wrapper>form {
+    display: flex;
+    flex-direction: column;
+}
+
+.note_form_wrapper>form>.input {
+    padding: 5px;
+    font-size: 1rem;
+}
+
+.note_form_wrapper>form>* {
+    margin-bottom: 10px;
+}
+
+.note_form_wrapper>form>*:last-child {
+    margin-bottom: 0;
+}
+
+.note_form_wrapper>form>button {
+    align-self: flex-end;
+}
